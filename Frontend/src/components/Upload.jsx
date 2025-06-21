@@ -201,7 +201,7 @@ const MolecularFileUpload = () => {
             <input
               type="file"
               multiple
-              accept={allowedExtensions.join(',')}
+              // accept={allowedExtensions.join(',')}
               onChange={handleFileInput}
               className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
               disabled={uploading}
